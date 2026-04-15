@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Aryan!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Comic Sans MS, cursive;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #ff4081;
+            animation: bounce 2s infinite;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: #4caf50;
+        }
+
+        .cake {
+            font-size: 100px;
+            animation: spin 6s infinite linear;
+        }
+
+        .animals {
+            font-size: 60px;
+        }
+
+        /* 🚗 Cars section */
+        .cars {
+            position: relative;
+            height: 150px;
+            margin-top: 20px;
+        }
+
+        .car {
+            font-size: 70px;
+            position: absolute;
+            animation: drive 6s linear infinite;
+        }
+
+        .monster {
+            font-size: 80px;
+            position: absolute;
+            top: 60px;
+            animation: bounceTruck 2s infinite;
+        }
+
+        @keyframes drive {
+            0% { left: -100px; }
+            100% { left: 100%; }
+        }
+
+        @keyframes bounceTruck {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .balloon {
+            width: 50px;
+            height: 70px;
+            border-radius: 50%;
+            position: absolute;
+            animation: float 6s infinite;
+        }
+
+        @keyframes float {
+            0% { top: 100%; }
+            100% { top: -100px; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 25px;
+            color: #673ab7;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 Happy Birthday 🎉</h1>
+    <h2>Aryan Singh 🎈</h2>
+
+    <div class="cake">🎂</div>
+
+    <div class="animals">
+        🐶 🐱 🐵 🦁 🐼 🐸 🐰 🐥
+    </div>
+
+    <!-- 🚗 Cars Animation -->
+    <div class="cars">
+        <div class="car">🚗</div> <!-- red car -->
+        <div class="monster">🚙</div> <!-- monster truck -->
+    </div>
+
+    <h2>Yayyy! You are 3 years old! 🎁🎊</h2>
+
+    <div class="footer">
+        Lots of Love, Hugs & Balloons! 💖🎈🎉
+    </div>
+
+</body>
+</html>
