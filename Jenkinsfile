@@ -3,10 +3,10 @@ pipeline {
 
     stages {
         stage('Clone Code') {
-            steps {
-                git 'https://github.com/anuj6244/dock.git'
-            }
-        }
+    steps {
+        echo 'Code already checked out'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
